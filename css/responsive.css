@@ -1,0 +1,27 @@
+@media screen and (max-width:1005px){
+    .menu{
+        display: none;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .lado-esquerdo{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .lado-direito{
+        display: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .servicos{
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
