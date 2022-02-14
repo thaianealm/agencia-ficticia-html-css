@@ -18,7 +18,7 @@ body{
     position: fixed;
     width: 100%;
     margin-top: -1.0em;
-    background: #eee;
+    background: rgb(255, 255, 255);
     cursor: default;
     /* background: #f1b55b; */
 }
@@ -107,6 +107,10 @@ body{
     flex: 40%;
     text-align: center;
     /* border: 1px solid #000000; */
+}
+
+.lado-direito-img{
+    width: 530px;
 }
 
 /*--------- Cards / Serviços ----------*/

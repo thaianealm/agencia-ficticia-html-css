@@ -3,19 +3,13 @@
         position: static;
         margin-bottom: -6.5em;
     }
-    
-    .logo{
-        flex: 100%;
-        text-align: center;
-        margin-left: 40px;
-    }
 
     .menu{
         display: none;
     }
 
     .header{
-        width: 100%;
+        flex: 100%;
     }
 
     .lado-esquerdo{
@@ -30,9 +24,19 @@
         text-align: center;
     }
 
+    .lado-direito-img{
+        width: 440px;
+        margin-left: 4%;
+    }
+
     .servicos{
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+
+    .whats{
+        display: none;
     }
 }
