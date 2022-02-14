@@ -152,3 +152,10 @@ footer{
 .creditos a:visited{
     color: #eee;
 }
+
+/*--------- Botão WhatsApp ---------*/
+.whats{
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+}
