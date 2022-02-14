@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+/*--------- Barra de navegação ---------*/
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    /* background: #f1b55b; */
+}
+
+.logo{
+    margin-left: 0;
+    font-size: 25px;
+    font-family: Helvetica;
+    /* border: 1px solid black; */
+}
+
+.menu{
+    padding: 20px;
+    margin-left: 13rem;
+    /* border: 1px solid black; */
+}
+
+.menu a{
+    font-size: 18px;
+    color: #000000;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    border-top: 5px solid #FE7164;
+}
+
+#botao{
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #eee;
+    background: #004E8C;
+}
+
+#botao:hover{
+    color: #004E8C;
+    background: #FE7164;
+    border: none;
+}
+
+/*--------- Cabeçalho ----------*/
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 5px;
+    cursor: default;
+    /* background: #785; */
+}
+
+.lado-esquerdo{
+    flex: 40%;
+    text-align: left;
+    padding: 0px 3px 30px 30px;
+    /* border: 1px solid #000000; */
+}
+
+.lado-esquerdo h1{
+    font-family: Helvetica, sans-serif;
+}
+
+.lado-esquerdo h2{
+    font-weight: 100;
+}
+
+.botao-contrate{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    background: #003866;
+    color: #eee;
+    margin-top: 10px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+}
+
+.botao-contrate:hover{
+    background: #FE7164;
+    color: #003866;
+}
+
+.lado-direito{
+    flex: 40%;
+    text-align: center;
+    /* border: 1px solid #000000; */
+}
+
+/*--------- Cards / Serviços ----------*/
+section{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 1%;
+    /* background: #d0fe64; */
+}
+
+.servicos{
+    display: flex;
+    margin: 1%;
+}
+
+.card{
+    flex: 30%;
+    text-align: center;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FE7164;
+}
+
+.card:hover{
+    cursor: pointer;
+    border: 1px solid #004E8C;
+}
+
+/*--------- Rodapé ---------*/
+footer{
+    text-align: center;
+    color: #eee;
+    background: #003866;
+    padding: 15px;
+    cursor: default;
+}
+
+.logo-rodape{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+.creditos{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.creditos a:visited{
+    color: #eee;
+}
