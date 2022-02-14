@@ -1,10 +1,21 @@
 @media screen and (max-width:1005px){
+    .navbar{
+        position: static;
+        margin-bottom: -6.5em;
+    }
+    
+    .logo{
+        flex: 100%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
     .menu{
         display: none;
     }
 
     .header{
-        text-align: center;
+        width: 100%;
     }
 
     .lado-esquerdo{
@@ -15,7 +26,7 @@
 
     .lado-direito{
         display: 100%;
-        margin: 5%;
+        margin: -2.5em 0.5em 0.5em 0.5em;
         text-align: center;
     }
 
