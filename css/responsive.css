@@ -17,8 +17,12 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-right: 10%;
+        margin-right: 15%;
         margin-bottom: 7%;
+    }
+
+    .lado-esquerdo h1 h2 p a{
+        text-align: center;
     }
 
     .lado-direito{

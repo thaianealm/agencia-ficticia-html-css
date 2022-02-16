@@ -56,7 +56,7 @@ body{
 
 #botao:hover{
     color: #004E8C;
-    background: #FE7164;
+    background: #ffffff;
     border: none;
 }
 
@@ -155,12 +155,15 @@ footer{
 }
 
 .creditos{
+    margin-top: 1%;
+}
+
+.creditos a{
     font-size: 20px;
-    margin-top: 10px;
     color: #eee;
 }
 
-.creditos a:visited{
+.creditos a:hover{
     color: #eee;
 }
 
