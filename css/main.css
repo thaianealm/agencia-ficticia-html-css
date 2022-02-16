@@ -121,6 +121,12 @@ section{
     /* background: #d0fe64; */
 }
 
+#titulo-servicos{
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+}
+
 .servicos{
     display: flex;
     margin: 1%;
