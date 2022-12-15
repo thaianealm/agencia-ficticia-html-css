@@ -8,6 +8,8 @@
     <meta name="keywords" content="Agência Fictícia, HTML, CSS">
     <!--Icon Favicon-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--Google Icons | Menu-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!--Main CSS-->
     <link rel="stylesheet" href="css/main.css">
     <!--Responsive CSS-->
@@ -20,48 +22,53 @@
             <h1>Agência Fictícia</h1>
         </div>
 
-        <div class="menu">
+        <span id="iconMenuBurguerOpen" class="material-symbols-outlined" onclick="openMenu()">
+            menu
+        </span>
+
+        <menu class="menu" id="menuItems">
             <a href="#">Home</a>
             <a href="#">Sobre</a>
             <a href="#">Serviços</a>
-            <a id="botao" href="#">Contato</a>
-        </div>
+            <a id="contact-button" href="#">Contato</a>
+            <button id="closeMenuBtn" onclick="closeMenu()">X</button>
+        </menu>
 
     </nav>
 
-    <header class="header">
-        <div class="lado-esquerdo">
+    <header class="header" id="header">
+        <div class="left-side">
             <h1>Você encontrou sua agência</h1>
             <h2>A melhor agência para o seu negócio.</h2>
             <p>Levamos o seu negócio a sério. Nosso time irá trabalhar para que sua empresa alcance os melhores resultados.</p>
-            <a class="botao-contrate" href="#">Contratar</a>
+            <a class="hire-button" href="#">Contratar</a>
         </div>
 
-        <div class="lado-direito">
-            <img class="lado-direito-img" src="img/20945379.jpg" alt="Ilustração do cabeçalho">
+        <div class="right-side">
+            <img class="right-side-img" src="img/20945379.jpg" alt="Ilustração do cabeçalho">
         </div>
     </header>
 
     <section>
-        <h2 id="titulo-servicos">No que podemos te ajudar?</h2>
-        <div class="servicos">
+        <h2 id="title-services">No que podemos te ajudar?</h2>
+        <div class="services">
             <div class="card">
                 <img src="img/computador.png" alt="Ilustração tela de um computador de mesa" style="width: 100px;">
-                <div class="card-texto"></div>
+                <div class="card-text"></div>
                 <h3>Desenvolvimento de site</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia itaque facere vero nostrum? Quidem laboriosam voluptate ex suscipit saepe dolore esse, delectus totam quae placeat, repudiandae eius nam nulla excepturi!</p>
             </div>
 
             <div class="card">
                 <img src="img/smartphone.png" alt="Ilustração smartphone" style="width: 100px;">
-                <div class="card-texto"></div>
+                <div class="card-text"></div>
                 <h3>Desenvolvimento de App</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia itaque facere vero nostrum? Quidem laboriosam voluptate ex suscipit saepe dolore esse, delectus totam quae placeat, repudiandae eius nam nulla excepturi!</p>
             </div>
 
             <div class="card">
                 <img src="img/technology.png" alt="Conjuto de lustrações representando a tecnologia. Contém tela de computador de mesa, smartphone, nootebook, sinal de wi-fi e servidor." style="width: 100px;">
-                <div class="card-texto"></div>
+                <div class="card-text"></div>
                 <h3>Pacote Completo</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia itaque facere vero nostrum? Quidem laboriosam voluptate ex suscipit saepe dolore esse, delectus totam quae placeat, repudiandae eius nam nulla excepturi!</p>
             </div>
@@ -70,17 +77,19 @@
     </section>
 
     <footer>
-        <div class="logo-rodape">
+        <div class="footer-logo">
             <h1>Agência Fictícia</h1>
             <p>Um site feito com HTML e CSS puro</p>
         </div>
         <strong>&copy;Todos os direitos reservados</strong>
-        <div class="creditos">
+        <div class="credits">
             <a target="_blank" href="credits/credits.html">Créditos</a>
         </div>
     </footer>
 
-    <a class="whats" href="#"><img src="img/whatsapp.png" alt="Botão do WhatsApp" style="width: 60px;"></a>
+    <a class="whatsapp" href="#"><img src="img/whatsapp.png" alt="Botão do WhatsApp" style="width: 60px;"></a>
 
+<!--JavaScript-->
+<script src="./js/script.js"></script>
 </body>
 </html>

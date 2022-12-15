@@ -8,7 +8,7 @@ body{
     font-family: Tahoma, Helvetica, Arial, sans-serif;
 }
 
-/*--------- Barra de navegação ---------*/
+/*--------- Navigation Bar ---------*/
 .navbar{
     display: flex;
     flex-flow: row wrap;
@@ -47,20 +47,28 @@ body{
     border-top: 5px solid #FE7164;
 }
 
-#botao{
+#contact-button{
     margin-left: 5px;
     border-radius: 5px;
     color: #eee;
     background: #004E8C;
 }
 
-#botao:hover{
+#contact-button:hover{
     color: #004E8C;
     background: #ffffff;
     border: none;
 }
 
-/*--------- Cabeçalho ----------*/
+#closeMenuBtn{
+    display: none;
+}
+
+.material-symbols-outlined{
+    display: none;
+}
+
+/*--------- Header ----------*/
 .header{
     display: flex;
     flex-flow: row wrap;
@@ -72,22 +80,22 @@ body{
     /* background: #785; */
 }
 
-.lado-esquerdo{
+.left-side{
     flex: 40%;
     text-align: left;
     padding: 0px 3px 30px 30px;
     /* border: 1px solid #000000; */
 }
 
-.lado-esquerdo h1{
+.left-side h1{
     font-family: Helvetica, sans-serif;
 }
 
-.lado-esquerdo h2{
+.left-side h2{
     font-weight: 100;
 }
 
-.botao-contrate{
+.hire-button{
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
@@ -98,22 +106,22 @@ body{
     border-radius: 7px;
 }
 
-.botao-contrate:hover{
+.hire-button:hover{
     background: #FE7164;
     color: #003866;
 }
 
-.lado-direito{
+.right-side{
     flex: 40%;
     text-align: center;
     /* border: 1px solid #000000; */
 }
 
-.lado-direito-img{
+.right-side-img{
     width: 530px;
 }
 
-/*--------- Cards / Serviços ----------*/
+/*--------- Cards / Services ----------*/
 section{
     display: flex;
     flex-flow: column wrap;
@@ -121,13 +129,13 @@ section{
     /* background: #d0fe64; */
 }
 
-#titulo-servicos{
+#title-services{
     display: inline-block;
     text-align: center;
     font-size: 35px;
 }
 
-.servicos{
+.services{
     display: flex;
     margin: 1%;
 }
@@ -146,7 +154,7 @@ section{
     border: 1px solid #004E8C;
 }
 
-/*--------- Rodapé ---------*/
+/*--------- Footer ---------*/
 footer{
     text-align: center;
     color: #eee;
@@ -155,26 +163,26 @@ footer{
     cursor: default;
 }
 
-.logo-rodape{
+.footer-logo{
     font-family: Helvetica, sans-serif;
     text-align: center;
 }
 
-.creditos{
+.credits{
     margin-top: 1%;
 }
 
-.creditos a{
+.credits a{
     font-size: 20px;
     color: #eee;
 }
 
-.creditos a:hover{
+.credits a:hover{
     color: #eee;
 }
 
-/*--------- Botão WhatsApp ---------*/
-.whats{
+/*--------- WhatsApp Button ---------*/
+.whatsapp{
     position: fixed;
     right: 8px;
     bottom: 8px;
