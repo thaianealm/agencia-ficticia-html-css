@@ -1,5 +1,11 @@
 # Site Agência Fictícia
 ## Site responsivo feito com HTML, CSS e JavaScript
 
-### Link
-https://thaianealm.github.io/site-agencia-ficticia-html-css/
+### Tecnologias e conceitos utilizados:
+- HTML | CSS | JavaScript
+
+- HTML semântico
+- Responsividade
+
+### Link para visualizar o projeto:
+https://rococo-gelato-df1f2a.netlify.app/
