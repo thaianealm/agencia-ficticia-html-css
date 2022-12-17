@@ -18,7 +18,7 @@ body{
     position: fixed;
     width: 100%;
     margin-top: -1.0em;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     cursor: default;
     /* background: #f1b55b; */
 }
@@ -55,8 +55,8 @@ body{
 }
 
 #contact-button:hover{
-    color: #004E8C;
-    background: #ffffff;
+    color: #fafafa;
+    background: #005499;
     border: none;
 }
 
